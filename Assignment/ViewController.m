@@ -1,10 +1,11 @@
 //
 //  ViewController.m
-//  WiproAssignment
+//  Assignment
 //
-//  Created by anand madhav on 29/11/17.
-//  Copyright © 2017 anand madhav. All rights reserved.
+//  Created by nagarjuna on 09/08/18.
+//  Copyright © 2018 nagarjuna. All rights reserved.
 //
+
 
 #import "ViewController.h"
 #import "CustomTableViewCell.h"
@@ -51,6 +52,7 @@
                 }
                 weakSelf.title = city;
                 self.titleString = [city mutableCopy];
+                self.navigationItem.title=self.titleString;
                 [tblView reloadData];
             }
             [tblView.refreshControl endRefreshing];

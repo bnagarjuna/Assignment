@@ -6,10 +6,10 @@
 //  Copyright © 2018 nagarjuna. All rights reserved.
 //
 
-#ifndef Assignment_pch
-#define Assignment_pch
-
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constant.h"
+#ifdef DEBUG
+#   define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#   define NSLog(...)
 
 #endif /* Assignment_pch */

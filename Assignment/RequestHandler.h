@@ -1,13 +1,15 @@
 //
 //  RequestResponse.h
-//  WiproAssignment
+//  Assignment
 //
-//  Created by anand madhav on 29/11/17.
-//  Copyright © 2017 anand madhav. All rights reserved.
+//  Created by nagarjuna on 09/08/18.
+//  Copyright © 2018 nagarjuna. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
-#import "Wipro.pch"
+#import "Assignment.pch"
+
 @interface RequestHandler : NSObject
 +(NSMutableURLRequest*) createGetRequest:(NSString*) urlString;
 @end

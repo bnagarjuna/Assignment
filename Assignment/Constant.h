@@ -1,9 +1,9 @@
 //
 //  Constant.h
-//  WiproAssignment
+//  Assignment
 //
-//  Created by anand madhav on 29/11/17.
-//  Copyright © 2017 anand madhav. All rights reserved.
+//  Created by nagarjuna on 09/08/18.
+//  Copyright © 2018 nagarjuna. All rights reserved.
 //
 #define FACTS @"/facts.json"
 #define REQUEST_TYPE_GET @"GET"
