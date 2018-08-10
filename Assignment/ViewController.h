@@ -1,15 +1,16 @@
 //
 //  ViewController.h
-//  Assignment
+//  WiproAssignment
 //
-//  Created by nagarjuna on 09/08/18.
-//  Copyright © 2018 nagarjuna. All rights reserved.
+//  Created by anand madhav on 29/11/17.
+//  Copyright © 2017 anand madhav. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+-(void) fetchServerData;
+-(void)maintask;
+@property(nonatomic , strong) NSString *titleString;
 @end
 
